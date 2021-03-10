@@ -9,3 +9,17 @@ CREATE TABLE [IF NOT EXISTS] schema.table_name (
    column3 datatype(length) column_contraint,
    table_constraints
 );
+
+
+
+查詢Table: select * from table_name
+select rows from table
+
+  查詢條件: where
+     select rows from table_name where row_condition_happens
+
+
+
+刪除Table row: delete
+delete from table_name where (row condition occurs)
+

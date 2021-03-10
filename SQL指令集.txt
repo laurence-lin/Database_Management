@@ -19,6 +19,9 @@ select rows from table
      select rows from table_name where row_condition_happens
 
 
+新增Table row: insert
+insert into table_name (row1, row2, row3...)
+values (value1, value2, value3...)
 
 刪除Table row: delete
 delete from table_name where (row condition occurs)

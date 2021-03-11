@@ -20,9 +20,12 @@ select rows from table
 
 
 新增Table row: insert
-insert into table_name (row1, row2, row3...)
+insert into table_name (col1, col2, col3...)
 values (value1, value2, value3...)
 
 刪除Table row: delete
 delete from table_name where (row condition occurs)
+
+更新Table row: update
+update table_name set column_name = value where (condition of the specific row)
 

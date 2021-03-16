@@ -38,6 +38,12 @@ update table_name set column_name = value where (condition of the specific row)
      column_A generated always as identity
      
      constraints primary_key_constraint primary key columns_A
+     
+     
+修改, 刪除, 新增現有table的columns, 亦可更改現有table的各種constraint:
+ALTER table table_name {執行更新動作}
+  如: 對現有table新增column
+      alter table table_name ADD columns_name data_type;
   
   
   

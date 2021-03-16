@@ -29,3 +29,22 @@ delete from table_name where (row condition occurs)
 更新Table row: update
 update table_name set column_name = value where (condition of the specific row)
 
+設定Primary key:
+兩種方式
+  1. 在設定table columns實質直接宣告primary key
+     create table_name { columns A not null primary key }
+     
+  2. 建立一個每個row增加1的column後, 設定constraint該columns為primary key
+     column_A generated always as identity
+     
+     constraints primary_key_constraint primary key columns_A
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

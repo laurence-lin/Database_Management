@@ -15,5 +15,16 @@
      開源DB:
        
        1. SQLite: 輕量級DB(可能只有幾十KB), 用C寫成, 適合用於嵌入式系統
+          優點: 處理速度極快, 容易在不同系統之間遷移
+          缺點: 不善於處理multithread 和multiprocessing, 容易被單一程式線程卡住, 讀寫文件會出問題
+                部分SQL語法不支援
+                
+       2. MySQL: 使用者廣大的RDBMA系統
+          優點: 完全支持multithread和multiprocessing, 速度快。支持GROUP BY, ORDER BY等SQL語法
+          缺點: 安全系統較複雜, 而非標準。
+          應用場景: 安全性高, 需多用戶訪問, 分散式DB(如同時使用SQLite)
+          
+       3. PostgreSQL:
+          
        
 

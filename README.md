@@ -25,6 +25,9 @@
           應用場景: 安全性高, 需多用戶訪問, 分散式DB(如同時使用SQLite)
           
        3. PostgreSQL:
+          優點:
+          缺點: 不支援multiprocessing, 速度較MySQL慢。不完全支持24hr運行, 需定期執行VACUUM.權限系統較不完整。
+          應用場景:需要遷移的DB環境, PostgreSQL易於遷移。
           
        
 
